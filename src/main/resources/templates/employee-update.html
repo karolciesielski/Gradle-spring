@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Update an employee</title>
+</head>
+<body>
+<center><p>Update an employee</p></center>
+<br />
+<hr />
+<br />
+<center><a href="employee-all">Return to employee list</a><br /></center>
+<br />
+<center>
+    <form method="POST" modelAttribute="Update">
+        <label>FirstName</label> <input type="text" name="imie" autocomplete="name"/>
+        <label>LastName</label> <input type="text" name="nazwisko" autocomplete="name"/>
+        <label>Salary</label> <input type="number" step="0.01" name="zarobki" autocomplete="name"/>
+        <input type="submit" value="Update!">
+    </form>
+</center>
+<br />
+<hr />
+
+</body>
+</html>

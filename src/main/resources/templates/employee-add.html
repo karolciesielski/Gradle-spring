@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Dodaj pracownika</title>
+</head>
+<body>
+<center><p>Adding an employee</p></center>
+<br />
+<hr />
+<br />
+<center><a href="employee-all">Powrót do listy pracowników</a><br /></center>
+<br />
+<center>
+<form method="POST" modelAttribute="FormularzDto">
+    <label>Imie</label> <input type="text" name="imie" />
+    <label>Nazwisko</label> <input type="text" name="nazwisko" />
+    <label>Zarobki</label> <input type="text" name="zarobki" />
+    <input type="submit" value="Dodaj!">
+</form>
+</center>
+<br />
+<hr />
+
+</body>
+</html>

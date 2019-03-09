@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Find an employee</title>
+</head>
+<body>
+<center><p>Find an employee</p></center>
+<br />
+<hr />
+<br />
+<center><a href="employee-all">Return to employee list</a><br /></center>
+<br />
+<center>
+<form method="GET" modelAttribute="Find">
+    <label>FirstName</label> <input type="text" name="imie"/>
+    <label>LastName</label> <input type="text" name="nazwisko"/>
+    <label>Salary</label> <input type="number" id="zarobki" step="0.01" name="zarobki"/>
+    <input type="submit" value="Find!">
+</form>
+</center>
+<br />
+<hr />
+
+</body>
+</html>
